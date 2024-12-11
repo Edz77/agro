@@ -1,7 +1,5 @@
 
 
-/*CUSTOM SCROLL BAR*/
-@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@400;500;600&display=swap');
 *,
 html {
   scroll-behavior: smooth;
@@ -34,7 +32,6 @@ html {
   background: #000;
 }
 
-/*DEFAULT*/
 body {
   margin: 0;
   overflow-x: hidden !important;
@@ -52,10 +49,6 @@ button {
   transition: 0.5s;
 }
 
-p {
-  line-height: 1.8em;
-  letter-spacing: 0.06em;
-}
 
 fieldset {
   border: 0;
@@ -73,19 +66,12 @@ img {
   width: 99%;
 }
 
-small {
-  font-size: 13px;
-  line-height: 1.4em;
-}
-
 .title {
   font-family: "Playfair Display", serif;
   color: #7CA32E;
 }
 
-.cursive {
-  font-family: "Dancing Script", cursive;
-}
+
 
 em {
   font-style: normal;
@@ -118,14 +104,8 @@ p {
 }
 
 
-
-
-
 @media (max-width: 820px) {
-  .btn1 {
-    padding: 10px 15px;
-    width: 150px;
-  }
+
   .title_header {
     width: 100%;
   }
