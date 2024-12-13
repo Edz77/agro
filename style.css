@@ -120,8 +120,8 @@ p {
 
 /*ZOOM OUT TO IN ON PAGE LOAD*/
 .animate {
-  -webkit-animation: animatezoom 4s;
-  animation: animatezoom 4s;
+  -webkit-animation: animatezoom 0.8s;
+  animation: animatezoom 0.8s;
 }
 
 @-webkit-keyframes animatezoom {
@@ -134,6 +134,29 @@ p {
 }
 
 @keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.animate2 {
+  -webkit-animation: animatezoom2 4s;
+  animation: animatezoom2 4s;
+}
+
+@-webkit-keyframes animatezoom2 {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom2 {
   from {
     transform: scale(0);
   }
